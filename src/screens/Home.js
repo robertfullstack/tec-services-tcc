@@ -182,7 +182,7 @@ const Home = () => {
 
 
       <footer className="footer">
-        <div className="footer-content">
+        {/* <div className="footer-content">
           <div className="footer-section about">
             <h3>TecService</h3>
             <p>Sua solução completa para consertos e assistência técnica de dispositivos móveis.</p>
@@ -202,7 +202,7 @@ const Home = () => {
             <p><FaMobileAlt /> (11) 1234-5678</p>
             <p><FaMobileAlt /> WhatsApp: (11) 98765-4321</p>
           </div>
-        </div>
+        </div> */}
         <p className="footer-bottom">&copy; 2024 TecService. Todos os direitos reservados.</p>
       </footer>
 
