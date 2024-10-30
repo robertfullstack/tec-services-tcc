@@ -1,0 +1,224 @@
+.ecommerce-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.ecommerce-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.ecommerce-content {
+    display: flex;
+}
+
+.ecommerce-filters {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.ecommerce-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    flex: 1;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+}
+
+.btn-buy {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    background-color: #218838;
+}
+
+/* .price-range {
+    width: 100%;
+} */
+
+.ecommerce-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.ecommerce-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ecommerce-content {
+    display: flex;
+}
+
+.ecommerce-filters {
+    width: 250px;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    /* Cor de fundo leve */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #343a40;
+    /* Cor do texto */
+}
+
+.ecommerce-filters label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.ecommerce-filters input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.price-range {
+    width: 100%;
+    cursor: pointer;
+}
+
+.ecommerce-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    flex: 1;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    /* Efeito de transição */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    /* Efeito de hover */
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+}
+
+.btn-buy {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Efeito de transição */
+}
+
+.btn-buy:hover {
+    background-color: #218838;
+}
+
+.price-range-label {
+    margin-top: 4px;
+    /* Espaçamento para o texto do preço */
+    font-size: 16px;
+    color: #495057;
+    /* Cor do texto */
+}
+
+.product-card img {
+    width: 150px;
+    /* Largura do quadrado */
+    height: 150px;
+    /* Altura do quadrado */
+    object-fit: cover;
+    /* Garante que a imagem não seja esticada e preencha o quadrado */
+    border-radius: 5px;
+    /* Adiciona cantos arredondados, se desejado */
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card img {
+    width: 150px;
+    /* Tamanho fixo do quadrado */
+    height: 150px;
+    /* Tamanho fixo do quadrado */
+    object-fit: cover;
+    /* Mantém a proporção da imagem */
+    border-radius: 5px;
+    /* Adiciona cantos arredondados, se desejado */
+}
+
+.btn-buy {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-buy:hover {
+    background-color: #218838;
+}
