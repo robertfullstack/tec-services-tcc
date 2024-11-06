@@ -43,19 +43,19 @@ const Home = () => {
   const data = [
     {
       question: "Porque escolha nossa loja?",
-      answer: "Todo aparelho eletrônico tem um tempo de vida especificado..."
+      answer: "..."
     },
     {
       question: "Qual é a especialização da Assistência especializada em Celular?",
-      answer: "Texto explicando a especialização da assistência especializada em celular."
+      answer: "..."
     },
     {
       question: "Habilidades para consertos de celular",
-      answer: "Texto explicando as habilidades necessárias para consertos de celular."
+      answer: "..."
     },
     {
       question: "Quando procurar uma assistência especializada?",
-      answer: "Texto explicando quando é necessário procurar uma assistência especializada."
+      answer: "..."
     }
   ];
 
